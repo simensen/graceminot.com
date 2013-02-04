@@ -64,4 +64,35 @@
         })();
     </script>
     {% endif %}
+    <script type="text/javascript">
+    (function($) {
+        var timer = null;
+        $(function() {
+            function resetMaxHeight() {
+                var maxHeight = 0;
+                $('.equal-height .well .equal-height-container').each(function() {
+                    var $this = $(this);
+                    $this.css('height', '');
+                    if ($this.height() > maxHeight) {
+                        maxHeight = $this.height();
+                    }
+                });
+                $('.equal-height .well .equal-height-container').each(function() {
+                    $(this).height(maxHeight);
+                });
+            };
+
+            var timer = setTimeout(function() {
+                resetMaxHeight();
+            }, 100);
+
+            $(window).on('resize', function() {
+                clearTimeout(timer);
+                timer = setTimeout(function() {
+                    resetMaxHeight();
+                }, 200);
+            });
+        });
+    })(jQuery);
+    </script>
 </html>
