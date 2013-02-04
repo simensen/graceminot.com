@@ -1,0 +1,39 @@
+---
+layout: default
+title: Grace
+---
+{% block full_title %}{{ site.title }} &mdash; {{ site.subtitle }}{% endblock %}
+{% block content %}
+<div class="row-fluid">
+    <div class="span12 well church">
+    </div>
+</div>
+
+<div class="borderless-hero-unit">
+    <h1>Grace</h1>
+    <p>
+        For God so loved the world that he gave his only begotten Son, that whoever
+        believes in him shall not perish but have eternal life.~John 3:16
+    </p>
+</div>
+
+<div class="row-fluid">
+    <div class="span4 well">
+        <h2>Worship With Us</h2>
+        <p>
+            We meet for service on the 1st, 2nd, and 3rd Sundays of the month at 2 p.m
+        </p>
+        <p><a class="btn btn-small btn-primary" href="{{ site.url }}/beliefs">What We Believe</a></p>
+    </div>
+    <div class="span4 well">
+        <h2>Find Us</h2>
+        <p>We meet in the fellowship hall of Immanuel Baptist Church at 1615 2nd Street SE.</p>
+        <p><a class="btn btn-small btn-primary" href="{{ site.url }}/location">Map and Directions</a></p>
+    </div>
+    <div class="span4 well">
+        <h2>Contact Us</h2>
+        <p>Call (701) 255-1039 if you have questions or want to get involved.</p>
+        <p><a class="btn btn-small btn-primary" href="{{ site.url }}/contact">More contact options</a></p>
+    </div>
+</div>
+{% endblock %}

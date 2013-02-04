@@ -1,0 +1,82 @@
+.well.church {
+    background-image: url(church.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+.borderless-hero-unit {
+    padding: 10px 0;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 31.5px;
+}
+
+/*
+.hero-unit h1 { color: #ccc; }
+.hero-unit p { color: #aaa; }
+*/
+/*
+.hero-unit p { color: #2d2d2d; }
+.hero-unit h1, .hero-unit p {*/
+    /*text-shadow: rgba(0,0,0,.1) 0.1em 0.1em 0.2em*/
+/*}*/
+.well h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 0;
+}
+.hero-unit p:first-of-type {
+    margin-top: 5.25px;
+}
+.hero-unit p strong a {
+    color: inherit;
+}
+h4 small
+{
+    display: block;
+    font-size: 60%;
+    color: #888;
+}
+
+.mainContent, footer.container {
+    max-width: 900px;
+}
+
+footer.container {
+    margin-top: 30px;
+    padding: 30px 0;
+    border-top: 2px solid rgba(0,0,0,0.1);
+}
+
+@media (max-width: 480px) {
+    .well.church {
+        height: 150px;
+    }
+
+    .borderless-hero-unit {
+        padding: 0px 0;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .hero-unit {
+        padding: 20px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .hero-unit h1 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 980px) {
+    .well.church {
+        height: 300px;
+    }
+
+    body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+        padding-bottom: 40px;
+    }
+}
