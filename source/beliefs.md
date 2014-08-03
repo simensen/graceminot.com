@@ -5,13 +5,6 @@ title: Beliefs
 ---
 # What We Believe
 
-Grace Lutheran Church is a small 15-member congregation of the [Wisconsin
-Evangelical Lutheran Synod](http://www.wels.net). Our focus is spreading the
-inerrant word of God to Christ's children throughout the Minot area.
-
-We meet for service on the 1st, 2nd, and 3rd Sundays of the month at 2 p.m. in
-the fellowship hall of [Immanuel Baptist Church]({{site.url}}/location).
-
 ### What is the Bible?
 
 *   The inspired and inerrant Word of God (John 10:35, II Peter 1:21)

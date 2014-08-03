@@ -7,7 +7,7 @@ title: Contact
 
 ### Pastor
 
-Pastor Jordan Ertl (701) 255-1039<br />
+Pastor Nate Walther (701) 500-2165<br />
 
 ### Facebook
 
